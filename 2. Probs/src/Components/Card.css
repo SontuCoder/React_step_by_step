@@ -1,0 +1,17 @@
+.card{
+    border: 1px solid;
+    padding-left: 10px;
+    background-color: rgb(244, 210, 168);
+    width: 200px;
+    text-wrap: wrap;
+    border-radius: 10px;
+}
+span{
+    color: black;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 10px;
+    transform: scale(1.01);
+    transition-duration: 0.3s;
+}
